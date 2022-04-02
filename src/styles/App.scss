@@ -1,0 +1,103 @@
+@mixin deadcenter() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin color($colorB, $colorF) {
+  background-color: $colorB;
+  color: $colorF;
+}
+@mixin Font($wght, $fam) {
+  font-family: $fam;
+  font-weight: $wght;
+}
+
+$background: rgba(230, 239, 245, 0.612);
+$navBackground: rgba(244, 238, 238, 0.687);
+$hint-Color: #fed136;
+
+body {
+  margin: 0px;
+  @include Font(300, Roboto + Slab);
+  .nav-wrp {
+    background-color: $navBackground;
+    // position: fixed;
+    // top: 0;
+    width: 100%;
+    .link-wrp {
+      padding-left: 30px;
+    }
+    a {
+      text-decoration: none;
+      @include Font(700, Noto + Serif);
+      font-size: 1.9;
+      color: black;
+    }
+  }
+  .stack-cont {
+    padding: 20px, 0px;
+    h1 {
+      @include Font(700, Noto + Serif);
+    }
+  }
+  .story-cont {
+    background-color: $background;
+    .vid-wrp {
+      .video-js {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+      }
+    }
+    .btn-wrp {
+      max-height: 400px;
+      button {
+        height: 100%;
+      }
+    }
+  }
+  .profile-card {
+    .img-wrp {
+      @include deadcenter();
+      img {
+        border-radius: 40px;
+        border-color: #fed136;
+        border-width: 10px;
+      }
+    }
+    .tit-wrp {
+      @include deadcenter();
+    }
+    .cont-wrp {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  .soft-wrp {
+    padding-left: 3rem;
+  }
+  .sskills-cnt {
+    display: flex;
+    justify-content: center;
+  }
+  .form-wrp {
+    .ff-wrp {
+      display: flex;
+      flex-direction: column;
+    }
+    .sf-wrp {
+      display: flex;
+      flex-direction: column;
+    }
+    input {
+      padding: 0.5rem;
+    }
+    .avail-cont {
+      @include deadcenter();
+      select {
+        padding: 0.5rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,142 @@
+body {
+  margin: 0px;
+  font-family: RobotoSlab;
+  font-weight: 300;
+}
+
+body .nav-wrp {
+  background-color: rgba(244, 238, 238, 0.687);
+  width: 100%;
+}
+
+body .nav-wrp .link-wrp {
+  padding-left: 30px;
+}
+
+body .nav-wrp a {
+  text-decoration: none;
+  font-family: NotoSerif;
+  font-weight: 700;
+  font-size: 1.9;
+  color: black;
+}
+
+body .stack-cont {
+  padding: 20px, 0px;
+}
+
+body .stack-cont h1 {
+  font-family: NotoSerif;
+  font-weight: 700;
+}
+
+body .story-cont {
+  background-color: rgba(230, 239, 245, 0.612);
+}
+
+body .story-cont .vid-wrp .video-js {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+body .story-cont .btn-wrp {
+  max-height: 400px;
+}
+
+body .story-cont .btn-wrp button {
+  height: 100%;
+}
+
+body .profile-card .img-wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .profile-card .img-wrp img {
+  border-radius: 40px;
+  border-color: #fed136;
+  border-width: 10px;
+}
+
+body .profile-card .tit-wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .profile-card .cont-wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .soft-wrp {
+  padding-left: 3rem;
+}
+
+body .sskills-cnt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .form-wrp .ff-wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .form-wrp .sf-wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .form-wrp input {
+  padding: 0.5rem;
+}
+
+body .form-wrp .avail-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .form-wrp .avail-cont select {
+  padding: 0.5rem;
+}
+/*# sourceMappingURL=App.css.map */

@@ -19,8 +19,8 @@ const MyStory = ({url}) => {
         <div className='vid-wrp py-4'>
            <VideoPlayer
            src={url}
-           width='100%'
-           height='100%'
+           width='1000'
+           height='600'
            playbackRates={[0.5,1,1.5,2.5,3.0]}
            />
         </div>

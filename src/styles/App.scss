@@ -20,7 +20,7 @@ body {
   margin: 0px;
   @include Font(300, Roboto + Slab);
   .nav-wrp {
-    background-color: $navBackground;
+    background-color: $background;
     // position: fixed;
     // top: 0;
     width: 100%;

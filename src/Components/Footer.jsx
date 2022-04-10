@@ -3,6 +3,7 @@ import { db } from "../firebase"
 
 const Footer = () => {
 
+
   const [input,setInput] = useState({
     fullname: "",
     compname:"",
@@ -17,23 +18,19 @@ const Footer = () => {
     setInput( {...input,[name]:value}) 
 
   }
+  const {fullname,compname,locstate,position} = input
 
-  // const handleSelect = (e) => {
-    
-  //   setInput({availtype: e.target.value})
-
-  // }
 
   const handleSubmit = (e) => {
     e.preventDefault()
       
     db.collection('contacts')
     .add({
-      fullname: input.fullname,
-      compname: input.compname,
+      fullname: fullname,
+      compname: compname,
       location: input.location,
-      position: input.position,
-      locstate: input.locstate,
+      position: position,
+      locstate: locstate,
       availtype: input.availtype,
 
     }).then(()=>{

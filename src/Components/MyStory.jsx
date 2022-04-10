@@ -2,7 +2,6 @@ import React from 'react'
 import VideoPlayer from 'react-video-js-player'
 
 
-
 const MyStory = ({url}) => {
   
  

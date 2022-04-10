@@ -1,5 +1,6 @@
 import {BrowserRouter as Router,Routes,Route } from "react-router-dom"
 
+
 import '../src/styles/App.css'
 // import image from "./images/background.jpg"
 
@@ -28,9 +29,6 @@ function App() {
         
           <Nav />
           <Stack/>
-           <Skills/>
-         
-          
            <Routes>
 
               <Route path="/Skills" element={<Skills/>} ></Route>
@@ -39,8 +37,11 @@ function App() {
               <Route path="/softskills" element={<SoftSkills/>}></Route>
 
            </Routes>
+         
+          
 
            <MyStory url={url}/>
+           <Skills/>
             <ProfileCard/>
             
    

@@ -18,7 +18,7 @@ const Projects = () => {
                 </div>
                 <section className='proj-cont '>
                     <div className='proj-wrp d-flex '>
-                        <div className=' col-md-4'>
+                        <div className=' col-4'>
                             <div className='d-flex justify-content-center'>
                                 <a href="https://goofy-hugle-6bc1d2.netlify.app/"> <div className='lnk-img-wrp'>
                                     <img width="270" height="270" src={Demo} alt="" />
@@ -41,7 +41,7 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='proj-wrp col-md-4'>
+                        <div className='proj-wrp col-4'>
                             <div className='d-flex justify-content-center'>
                                 <a href="https://inspiring-davinci-f75f9e.netlify.app">
                                     <img width="270" height="270"  src={Crypto} alt="" />
@@ -63,7 +63,7 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='proj-wrp d-flex flex-column col-md-4'>
+                        <div className='d-flex flex-column col-4'>
                             <div className=' d-flex justify-content-center'>
                                 <a href="https://github.com/Carlito-prog/petsPractrice">
                                     <img width="270" height="270"  src={Node} alt=""/>

@@ -42,12 +42,16 @@ body {
   }
   .story-cont {
     background-color: $background;
-    .vid-wrp {
-      .video-js {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 10px;
+    .video-wrp {
+      @include deadcenter();
+      .player-wrapper {
+        position: relative;
+        padding-top: 56.25%;
+        .react-player {
+          position: absolute;
+          top: 0;
+          left: 50px;
+        }
       }
     }
     .btn-wrp {

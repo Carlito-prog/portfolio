@@ -5,7 +5,7 @@ body {
 }
 
 body .nav-wrp {
-  background-color: rgba(244, 238, 238, 0.687);
+  background-color: rgba(230, 239, 245, 0.612);
   width: 100%;
 }
 
@@ -34,11 +34,27 @@ body .story-cont {
   background-color: rgba(230, 239, 245, 0.612);
 }
 
-body .story-cont .vid-wrp .video-js {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
+body .story-cont .video-wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .story-cont .video-wrp .player-wrapper {
+  position: relative;
+  padding-top: 56.25%;
+}
+
+body .story-cont .video-wrp .player-wrapper .react-player {
+  position: absolute;
+  top: 0;
+  left: 50px;
 }
 
 body .story-cont .btn-wrp {

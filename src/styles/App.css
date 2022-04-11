@@ -155,4 +155,8 @@ body .form-wrp .avail-cont {
 body .form-wrp .avail-cont select {
   padding: 0.5rem;
 }
+
+body .desc-wrp {
+  padding: 0 0.8rem;
+}
 /*# sourceMappingURL=App.css.map */

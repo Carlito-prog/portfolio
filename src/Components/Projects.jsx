@@ -15,7 +15,11 @@ const Projects = () => {
         <div className="proj-wrp d-flex ">
           <div className=" col-4">
             <div className="d-flex justify-content-center">
-              <a href="https://goofy-hugle-6bc1d2.netlify.app/" target="_blank">
+              <a
+                href="https://goofy-hugle-6bc1d2.netlify.app/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 {" "}
                 <div className="lnk-img-wrp">
                   <img width="270" height="270" src={Demo} alt="" />
@@ -48,6 +52,7 @@ const Projects = () => {
             <div className="d-flex justify-content-center">
               <a
                 href="https://inspiring-davinci-f75f9e.netlify.app"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <img width="270" height="270" src={Crypto} alt="" />
@@ -73,7 +78,11 @@ const Projects = () => {
           </div>
           <div className="d-flex flex-column col-4">
             <div className=" d-flex justify-content-center">
-              <a href="https://github.com/Carlito-prog/petsPractrice">
+              <a
+                href="https://github.com/Carlito-prog/petsPractrice"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <img width="270" height="270" src={Node} alt="" />
                 <div className="lnk-txt-wrp py-3">
                   <h3> Node.js Demo </h3>

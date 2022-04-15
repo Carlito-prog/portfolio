@@ -30,13 +30,14 @@ body {
     a {
       text-decoration: none;
       @include Font(700, Noto + Serif);
-      font-size: 1.9;
+      font-size: 1rem;
       color: black;
     }
   }
   .stack-cont {
     padding: 20px, 0px;
     h1 {
+      font-size: 2rem;
       @include Font(700, Noto + Serif);
     }
   }

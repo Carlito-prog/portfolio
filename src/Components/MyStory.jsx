@@ -21,7 +21,7 @@ const MyStory = ({ url }) => {
             />
           </div>
         </div>
-        <div className="btn-wrp d-flex justify-content-center">
+        {/* <div className="btn-wrp d-flex justify-content-center">
           <a
             href="/projects"
             className="btn btn-secondary btn-lg active"
@@ -30,7 +30,7 @@ const MyStory = ({ url }) => {
           >
             My Projects
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

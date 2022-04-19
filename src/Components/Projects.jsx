@@ -20,7 +20,6 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                {" "}
                 <div className="lnk-img-wrp">
                   <img width="270" height="270" src={Demo} alt="" />
                 </div>
@@ -36,13 +35,9 @@ const Projects = () => {
                 </div>
                 <div>
                   <p>
-                    This website is developed with react js from scratch
-                    pulliung API for characters in a blog style with
-                    router-links. Using function components, with react Hooks,
-                    like Browser Router, UseContext, State, with additions
-                    coming soon using Redux for Home/Profile Components with
-                    Back end coming soon for JWT Auth, and pulling data from
-                    Mongodb user profile information/stats.
+                    This website is currently being developed with React.js
+                    using functional components and React Hooks such as, Browser
+                    Router, UseContext and State.
                   </p>
                 </div>
               </div>
@@ -69,9 +64,9 @@ const Projects = () => {
                 <div></div>
                 <p>
                   This is a personal project displaying my interest in crypto
-                  and trading. This web app is still under-construction with
-                  back-end coming soon, with node.js and mongodb, for users
-                  Authentification, Mongoose for Services.
+                  and trading. This web app is still under-construction. Node.JS
+                  and Mongo DB for user authentication will be used on the
+                  backend.
                 </p>
               </div>
             </div>
@@ -95,12 +90,8 @@ const Projects = () => {
               </div>
               <div>
                 <p>
-                  Built Using React Router Dom, and context provider for login
-                  and route access. Open Access for visitors just input a 3
-                  character Username and Password. Using Redux for Profile
-                  Component not finished with back-end take a look at code on
-                  Github.Views bulit with React.js and Back-End built with
-                  Node.js Express, with MongoDB as data base.
+                  This is a Node.JS project showcasing the use of Express,
+                  MongoDB, JWT, and MVC architecture.
                 </p>
               </div>
             </div>

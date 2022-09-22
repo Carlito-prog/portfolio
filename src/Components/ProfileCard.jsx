@@ -11,7 +11,7 @@ const ProfileCard = () => {
           <img
             width="250"
             height="250"
-            src="https://ca.slack-edge.com/T023XKR8HU3-U027TGECGVD-1b263299545b-512"
+            src="https://media-exp1.licdn.com/dms/image/C4E03AQGlPoMGXGbdaQ/profile-displayphoto-shrink_800_800/0/1663698452447?e=1669248000&v=beta&t=Oz6qwWwQdZxMtCt-UlVdxXQJhh9dvzBKfUJz4lHEQEA"
             alt="pic-of-me"
           />
         </div>

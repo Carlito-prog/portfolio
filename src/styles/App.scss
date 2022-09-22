@@ -18,14 +18,23 @@ body {
   margin: 0px;
   @include Font(300, Roboto + Slab);
   .nav-wrp {
-    h4 {
-      margin-bottom: 0;
-    }
-    a {
-      text-decoration: none;
-      @include Font(700, Noto + Serif);
-      font-size: 1rem;
-      color: black;
+    display: flex;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    .text-box {
+      text-align: center;
+      vertical-align: middle;
+      h4 {
+        margin-bottom: 0;
+      }
+      a {
+        text-decoration: none;
+        @include Font(700, Noto + Serif);
+        font-size: 1rem;
+        color: black;
+      }
     }
   }
   .stack-cont {

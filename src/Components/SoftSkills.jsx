@@ -39,7 +39,7 @@ const SoftSkills = () => {
             <div className="">
               <ul>
                 <li>Coding</li>
-                <li>Solidity</li>
+                <li>web3/Solidity</li>
                 <li>Traveling</li>
                 <li>Learning</li>
                 <li>Video Games</li>

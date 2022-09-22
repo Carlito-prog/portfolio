@@ -12,20 +12,14 @@
   font-weight: $wght;
 }
 
-$background: rgba(230, 239, 245, 0.612);
-$navBackground: rgba(244, 238, 238, 0.687);
 $hint-Color: #fed136;
 
 body {
   margin: 0px;
   @include Font(300, Roboto + Slab);
   .nav-wrp {
-    background-color: $background;
-    // position: fixed;
-    // top: 0;
-    width: 100%;
-    .link-wrp {
-      padding-left: 30px;
+    h4 {
+      margin-bottom: 0;
     }
     a {
       text-decoration: none;
@@ -39,27 +33,6 @@ body {
     h1 {
       font-size: 2rem;
       @include Font(700, Noto + Serif);
-    }
-  }
-  .story-cont {
-    background-color: $background;
-    .video-wrp {
-      @include deadcenter();
-      .player-wrapper {
-        position: relative;
-        padding-top: 56.25%;
-        .react-player {
-          position: absolute;
-          top: 0;
-          left: 50px;
-        }
-      }
-    }
-    .btn-wrp {
-      max-height: 400px;
-      button {
-        height: 100%;
-      }
     }
   }
   .profile-card {

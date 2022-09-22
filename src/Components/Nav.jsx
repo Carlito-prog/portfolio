@@ -3,27 +3,28 @@ import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <nav className="nav-wrp">
-      <div className="row">
-        <div className="link-cont col-8 ">
-          <div className="link-wrp">
+    <div className="container-fluid py-2">
+      <div className="nav-wrp">
+        <div className="row">
+          <div className="col-md-9 pb-0">
             <NavLink exact={true} to="/">
-              <h1>My Story</h1>
+              <h4>My Story</h4>
             </NavLink>
           </div>
-        </div>
 
-        <div className="col-4 d-flex justify-content-evenly ">
-          <div className="d-flex align-items-center">
-            <NavLink to="/projects">Projects</NavLink>
-          </div>
-
-          <div className="d-flex align-items-center">
-            <NavLink to="/softskills"> Soft Skills </NavLink>
+          <div className="col-md-3 align-self-center">
+            <div className="row">
+              <div className="col text-end">
+                <NavLink to="/projects">Projects</NavLink>
+              </div>
+              <div className="col">
+                <NavLink to="/softskills"> Soft Skills </NavLink>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </nav>
+    </div>
   );
 };
 

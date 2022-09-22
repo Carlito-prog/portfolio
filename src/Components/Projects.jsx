@@ -12,8 +12,8 @@ const Projects = () => {
         </h1>
       </div>
       <section className="proj-cont ">
-        <div className="proj-wrp d-flex ">
-          <div className=" col-4">
+        <div className="proj-wrp d-flex">
+          <div className="col-4">
             <div className="d-flex justify-content-center">
               <a
                 href="https://goofy-hugle-6bc1d2.netlify.app/"

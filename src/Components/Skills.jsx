@@ -14,7 +14,7 @@ const Skills = () => {
             <ul className="list-skills col">
               <li>JavaScript Specialist</li>
               <li>Vue</li>
-              <li>CSS/SASS</li>
+              <li>CSS/SASS/Bootstrap</li>
               <li>Rest API</li>
               <li>TypeScript</li>
               <li>SQL</li>
@@ -24,9 +24,9 @@ const Skills = () => {
             <ul className="list-skills col">
               <li>React</li>
               <li>Salesforce</li>
-              <li>Algorithms</li>
-              <li>AJAX/XML</li>
-              <li>OOP</li>
+              <li>Blazor</li>
+              <li>AJAX/XML/Axios</li>
+              <li>AWS</li>
               <li>FireBase</li>
             </ul>
           </div>
@@ -36,8 +36,8 @@ const Skills = () => {
               <li>Material Ui</li>
               <li>Redux/Vuex</li>
               <li>Mongo DB</li>
-              <li>Sequelize</li>
-              <li>Postgre</li>
+              <li>SQL</li>
+              <li>C#</li>
             </ul>
           </div>
         </div>

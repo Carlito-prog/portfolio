@@ -18,7 +18,7 @@ const Stack = () => {
         </div>
         <br />
         <div className="stk-wrp">
-          <h3> PHP </h3>
+          <h3> .Net </h3>
         </div>
         <br />
         <div className="stk-wrp">

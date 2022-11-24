@@ -8,8 +8,8 @@ const Skills = () => {
           <u>My Technical Skills</u>
         </h1>
       </div>
-      <section className="list-skills-wrp py-4">
-        <div className="d-flex justify-content-evenly">
+      <section className="list-skills-wrp py-4 d-flex justify-content-evenly">
+        <div className="">
           <div className="py-2">
             <ul className="list-skills col">
               <li>JavaScript Specialist</li>

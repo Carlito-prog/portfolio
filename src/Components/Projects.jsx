@@ -1,6 +1,6 @@
 import React from "react";
 import Node from "../images/Node.png";
-import Crypto from "../images/Vue-Crypto.png";
+//import Crypto from "../images/Vue-Crypto.png";
 import Demo from "../images/React-Demo.png";
 
 const Projects = () => {
@@ -47,7 +47,12 @@ const Projects = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <img width="270" height="270" src={Crypto} alt="" />
+              <image
+                width="270"
+                height="270"
+                //src={Crypto}
+                alt="vue-project-photo"
+              />
               <div className="lnk-txt-wrp py-3">
                 <h3> Vue Crypto World </h3>
               </div>

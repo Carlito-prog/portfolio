@@ -13,7 +13,9 @@
 }
 
 $hint-Color: #fed136;
-
+* {
+  margin: 0px;
+}
 body {
   margin: 0px;
   @include Font(300, Roboto + Slab);
@@ -27,7 +29,7 @@ body {
       text-align: center;
       vertical-align: middle;
       h4 {
-        margin-bottom: 0;
+        margin-bottom: 0px;
       }
       a {
         text-decoration: none;

@@ -1,6 +1,5 @@
 import React from "react";
 import Node from "../images/Node.png";
-//import Crypto from "../images/Vue-Crypto.png";
 import Demo from "../images/React-Demo.png";
 
 const Projects = () => {

@@ -1,24 +1,34 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React, { useRef } from "react";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
+  const scrollRef = useRef(null);
+
+  const handleClick = () => {
+    scrollRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
+  };
+
   return (
-    <div className="nav-wrp container-fluid row">
+    <nav className="nav-wrp container-fluid row">
       <div className="col col-sm-6 pb-0">
-        <NavLink exact={true} to="/">
+        <Link exact={true} to="/">
           <h4>My Story</h4>
-        </NavLink>
+        </Link>
       </div>
 
       <div className="col col-sm-6 row">
         <div className="col text-end">
-          <NavLink to="/projects">Projects</NavLink>
+          <Link ref={scrollRef} onClick={handleClick} to="/projects">
+            Projects
+          </Link>
         </div>
         <div className="col text-end text-nowrap">
-          <NavLink to="/softskills">Soft Skills</NavLink>
+          <Link ref={scrollRef} onClick={handleClick} to="/softskills">
+            Soft Skills
+          </Link>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 

@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import "../src/styles/App.css";
 // import image from "./images/background.jpg"
@@ -22,15 +22,13 @@ function App() {
         <Nav />
         <Stack />
         <MyStory url={url} />
-        <Routes>
-          <Route path="/Skills" element={<Skills />}></Route>
-          <Route path="/Projects" element={<Projects />}></Route>
-          <Route path="/MyStory" element={<MyStory />}></Route>
-          <Route path="/softskills" element={<SoftSkills />}></Route>
-        </Routes>
-        <Projects />
+        <Switch>
+          <Route path="/Skills" component={Skills}></Route>
+          <Route path="/Projects" component={Projects}></Route>
+          <Route path="/MyStory" component={MyStory}></Route>
+          <Route path="/softskills" component={SoftSkills}></Route>
+        </Switch>
         <Skills />
-        <SoftSkills />
         <ProfileCard />
         <Footer />
       </Router>

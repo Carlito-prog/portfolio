@@ -11,7 +11,7 @@ const ProfileCard = () => {
           <img
             width="250"
             height="250"
-            src="https://media.licdn.com/dms/image/C4E03AQGlPoMGXGbdaQ/profile-displayphoto-shrink_800_800/0/1663698452447?e=1679529600&v=beta&t=kfn2RW4B28rxYwQ3UdbEG7Jh1UEC4Mae_6ejkVnekfs"
+            src="https://media.licdn.com/dms/image/C4E03AQGlPoMGXGbdaQ/profile-displayphoto-shrink_400_400/0/1663698452447?e=1686182400&v=beta&t=Z4gAvNyHLmhMYNAtUksULgTKBhVYZdOf4AnfTdU0x-4"
             alt="pic-of-me"
           />
         </div>

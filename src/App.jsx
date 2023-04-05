@@ -16,7 +16,6 @@ function App() {
   const handleClick = () => {
     window.scrollTo({
       top: 710,
-      left: 100,
       behavior: "smooth",
     });
   };

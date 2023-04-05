@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 function App() {
   const handleClick = () => {
     window.scrollTo({
-      top: 720,
+      top: 710,
       left: 100,
       behavior: "smooth",
     });
@@ -26,7 +26,7 @@ function App() {
   return (
     <main className="app">
       <Router>
-        <nav className="nav-wrp container-fluid row">
+        <nav className="nav-wrp row">
           <div className="col col-sm-6 pb-0">
             <Link exact={true} to="/">
               <h4>My Story</h4>

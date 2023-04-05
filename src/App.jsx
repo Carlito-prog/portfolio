@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "../src/styles/App.css";
 // import image from "./images/background.jpg"
 
-import Nav from "./Components/Nav";
 import Stack from "./Components/Stack";
 import MyStory from "./Components/MyStory";
 import Skills from "./Components/Skills";
@@ -11,12 +10,9 @@ import ProfileCard from "./Components/ProfileCard";
 import Projects from "./Components/Projects";
 import SoftSkills from "./Components/SoftSkills";
 import Footer from "./Components/Footer";
-import { useCallback, useState, useRef } from "react";
 import { Link } from "react-router-dom";
 
 function App() {
-  const scrollRef = useRef(null);
-
   const handleClick = () => {
     window.scrollTo({
       top: 720,
@@ -39,7 +35,7 @@ function App() {
 
           <div className="col col-sm-6 row">
             <div className="col text-end">
-              <Link ref={scrollRef} onClick={handleClick} to="/projects">
+              <Link onClick={handleClick} to="/projects">
                 Projects
               </Link>
             </div>

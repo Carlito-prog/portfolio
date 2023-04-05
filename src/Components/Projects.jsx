@@ -2,9 +2,9 @@ import React from "react";
 import Node from "../images/Node.png";
 import Demo from "../images/React-Demo.png";
 
-const Projects = () => {
+const Projects = ({ scrollRef }) => {
   return (
-    <section className="container-fluid proj-ctn py-3">
+    <section ref={scrollRef} className="container-fluid proj-ctn py-3">
       <div className="title-wrp py-4">
         <h1>
           <u>Projects & Code Written</u>

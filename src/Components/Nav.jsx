@@ -5,6 +5,7 @@ const Nav = () => {
   const scrollRef = useRef(null);
 
   const handleClick = () => {
+    console.log(scrollRef.current);
     scrollRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
   };
 

@@ -1,8 +1,8 @@
 import React from "react";
 
-const SoftSkills = () => {
+const SoftSkills = ({ scrollRef }) => {
   return (
-    <section className="sskills-cnt row">
+    <section ref={scrollRef} className="sskills-cnt row">
       <section className="soft-wrp col-6 pl-4">
         <div className="py-4 ">
           <h3 className="title-txt">

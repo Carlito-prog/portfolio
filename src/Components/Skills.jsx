@@ -22,10 +22,10 @@ const Skills = () => {
         <div>
           <ul className="list-skills col">
             <li>React</li>
-            <li>Salesforce</li>
-            <li>Blazor</li>
-            <li>AJAX/XML/Axios</li>
-            <li>AWS</li>
+            <li>Salesforce DB</li>
+            <li>Razor</li>
+            <li>Linux/Windows Environment</li>
+            <li>AWS-EC2/Lambda</li>
             <li>FireBase</li>
           </ul>
         </div>
@@ -35,7 +35,7 @@ const Skills = () => {
             <li>Material Ui</li>
             <li>Redux/Vuex</li>
             <li>Mongo DB</li>
-            <li>SQL</li>
+            <li>.NET</li>
             <li>C#</li>
           </ul>
         </div>

@@ -11,7 +11,7 @@ const ProfileCard = () => {
           <img
             width="250"
             height="250"
-            src="https://media.licdn.com/dms/image/C4E03AQGlPoMGXGbdaQ/profile-displayphoto-shrink_400_400/0/1663698452447?e=1686182400&v=beta&t=Z4gAvNyHLmhMYNAtUksULgTKBhVYZdOf4AnfTdU0x-4"
+            src="https://firebasestorage.googleapis.com/v0/b/litos-portfolio.appspot.com/o/Career%20Pic.jpeg?alt=media&token=1417d093-d46f-482e-9424-3fb8358e311d"
             alt="pic-of-me"
           />
         </div>

@@ -23,21 +23,21 @@ function App() {
     "https://firebasestorage.googleapis.com/v0/b/litos-portfolio.appspot.com/o/Loom%20Message%20-%2011%20April%202023.mp4?alt=media&token=1874c461-4586-4ee6-b448-4653fb7fdf61";
 
   return (
-    <main className="app">
+    <main className="app container-fluid">
       <Router>
-        <nav className="nav-wrp row">
-          <div className="col col-xs-6 pb-0 me-auto">
+        <nav className="nav-wrp row d-flex justify-content-between">
+          <div className="col col-xs-6 align-self-center">
             <Link exact={true} to="/">
-              <h4>My Story</h4>
+              <h4 className="fs-1">My Story</h4>
             </Link>
           </div>
 
-          <div className="col col-xs-6 text-end">
+          <div className="col text-center align-self-center">
             <Link onClick={handleClick} to="/projects">
               Projects
             </Link>
           </div>
-          <div className="col text-end text-nowrap">
+          <div className="col text-end align-self-center">
             <Link onClick={handleClick} to="/softskills">
               Soft Skills
             </Link>

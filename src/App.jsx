@@ -26,23 +26,21 @@ function App() {
     <main className="app">
       <Router>
         <nav className="nav-wrp row">
-          <div className="col col-sm-6 pb-0">
+          <div className="col col-xs-6 pb-0 me-auto">
             <Link exact={true} to="/">
               <h4>My Story</h4>
             </Link>
           </div>
 
-          <div className="col col-sm-6 row">
-            <div className="col text-end">
-              <Link onClick={handleClick} to="/projects">
-                Projects
-              </Link>
-            </div>
-            <div className="col text-end text-nowrap">
-              <Link onClick={handleClick} to="/softskills">
-                Soft Skills
-              </Link>
-            </div>
+          <div className="col col-xs-6 text-end">
+            <Link onClick={handleClick} to="/projects">
+              Projects
+            </Link>
+          </div>
+          <div className="col text-end text-nowrap">
+            <Link onClick={handleClick} to="/softskills">
+              Soft Skills
+            </Link>
           </div>
         </nav>
         <Stack />

@@ -2,8 +2,8 @@ import React from "react";
 
 const SoftSkills = () => {
   return (
-    <section className="sskills-cnt row me-auto container-fluid ">
-      <section className="soft-wrp col-6 col-xs-12 pl-4">
+    <section className="sskills-cnt row container-fluid ">
+      <section className="soft-wrp col-6 col-xs-12">
         <div className="py-4 ">
           <h3 className="title-txt">
             <u>My Soft Skills</u>

@@ -3,7 +3,7 @@ import React from "react";
 const SoftSkills = () => {
   return (
     <section className="sskills-cnt row me-auto container-fluid ">
-      <section className="soft-wrp col-6 col-xs-6 pl-4">
+      <section className="soft-wrp col-6 col-xs-12 pl-4">
         <div className="py-4 ">
           <h3 className="title-txt">
             <u>My Soft Skills</u>
@@ -28,7 +28,7 @@ const SoftSkills = () => {
           </div>
         </section>
       </section>
-      <section className=" hob-wrp col-6 col-xs-6 ">
+      <section className=" hob-wrp col-6 col-xs-12 ">
         <div className="py-4">
           <h3 className="title-txt">
             <u>My Hobbies</u>

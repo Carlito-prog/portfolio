@@ -9,7 +9,7 @@ const SoftSkills = () => {
             <u>My Soft Skills</u>
           </h3>
         </div>
-        <section className="ul-cont d-flex justify-content-evenly py-3">
+        <section className="ul-cont d-flex justify-content-evenly">
           <div className="ul-wrp  ">
             <ul className="text-dark  ">
               <li>Fast Learner</li>
